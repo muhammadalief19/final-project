@@ -1,11 +1,13 @@
-import React from 'react';
-
+import React from "react";
+import img1 from "../assets/company.svg";
 function Dashboard() {
   return (
     <>
       <div className="">
         <div className="">
-          <p className="">HALO iyek</p>
+          <div className="">
+            <img src={img1} alt="" />
+          </div>
         </div>
       </div>
     </>
