@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Navbar() {
+export default function Navbar(props) {
   const [hamburgerActive, setHamburgerActive] = useState(false);
 
   function hamburgerMenu() {
@@ -10,7 +10,7 @@ export default function Navbar() {
     <>
       <nav className="w-full px-7 py-5 bg-red-600 text-white grid grid-cols-3 h-max sticky top-0">
         <div className="w-full font-bold">
-          <p className="text-3xl">Iyek Company</p>
+          <p className="text-3xl">{props.name}</p>
         </div>
         <div className="col-span-2 w-full flex justify-end h-full items-center">
           <div className={`${hamburgerActive ? 'flex' : 'hidden'} lg:flex absolute top-20 right-3 bg-slate-400 lg:bg-transparent lg:static w-28 lg:w-1/2 rounded`}>
