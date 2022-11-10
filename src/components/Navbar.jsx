@@ -8,7 +8,7 @@ export default function Navbar(props) {
   }
   return (
     <>
-      <nav className="w-full px-7 py-5 bg-red-600 text-white grid grid-cols-3 h-max sticky top-0">
+      <nav className="w-full px-7 py-5 bg-sky-600 text-white grid grid-cols-3 h-max sticky top-0 z-50">
         <div className="w-full font-bold">
           <p className="text-3xl">{props.name}</p>
         </div>
@@ -16,7 +16,7 @@ export default function Navbar(props) {
           <div className={`${hamburgerActive ? 'flex' : 'hidden'} lg:flex absolute top-20 right-3 bg-slate-400 lg:bg-transparent lg:static w-28 lg:w-1/2 rounded`}>
             <ul className="w-full h-44 lg:h-max flex lg:flex-row flex-col justify-around items-center">
               <li className="">
-                <a href="" className="">
+                <a href="#section-dashboard" className="">
                   Dashboard
                 </a>
               </li>

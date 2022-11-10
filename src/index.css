@@ -2,16 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply scroll-smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply relative;
+  @apply relative overflow-x-hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+#section-dashboard {
+  background-image: url('assets/bg-dashboard.jpg');
 }
 
 .hamburger-active > span:nth-child(1) {

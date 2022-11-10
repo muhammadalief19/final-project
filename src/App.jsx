@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="w-full">
         <Navbar name={'Iyek Company'} />
-        <div className="w-full py-8 px-14">
+        <div className="w-full">
           <Dashboard />
         </div>
       </div>
