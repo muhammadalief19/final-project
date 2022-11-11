@@ -4,21 +4,15 @@ import img1 from '../assets/company.svg';
 function Dashboard() {
   return (
     <>
-      <div className="w-full bg-cover px-10 py-28 text-white bg-no-repeat aspect-video box-border" id="section-dashboard">
-        <p className="text-center text-4xl font-extrabold mb-8">Dashboard</p>
-        <div className="w-full grid grid-cols-2 gap-10">
-          <div className="">
-            <img src={img1} alt="" className="w-full" />
+      <div className="w-full px-7 py-20 bg-teal-600 text-white box-border grid grid-cols-2 gap-x-14 h-max" id="dashboard">
+        <div className="w-full flex h-full justify-center items-center">
+          <div className="w-max">
+            <p className="text-6xl font-extrabold w-40 mb-5">IYEK COMPANY</p>
+            <p className="w-64 font-normal text-lg">Kami melayani sepenuh hati dan senyuman</p>
           </div>
-          <div className="w-full flex flex-col pt-20">
-            <div className="w-full">
-              <p className="text-2xl font-bold mb-2">Halo guys 👋</p>
-              <p className="text-3xl font-bold mb-2 text-red-700">Selat datang di website perusahaan</p>
-              <p className="text-5xl font-bold mb-2">
-                Iyek <span className="text-red-500">Company</span>
-              </p>
-            </div>
-          </div>
+        </div>
+        <div className="w-full flex justify-center">
+          <img src={img1} alt="" className="w-3/4" />
         </div>
       </div>
     </>

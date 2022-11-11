@@ -1,6 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 export default function Navbar(props) {
+  // navbar fixed
+  window.onscroll = function () {
+    const anjas = document.querySelector('#nav');
+    const fixedNav = anjas.offsetTop;
+
+    if (window.pageYOffset > fixedNav) {
+      anjas.classList.add('navbar-fixed');
+    } else {
+      anjas.classList.remove('navbar-fixed');
+    }
+  };
+
   const [hamburgerActive, setHamburgerActive] = useState(false);
 
   function hamburgerMenu() {
@@ -8,7 +20,7 @@ export default function Navbar(props) {
   }
   return (
     <>
-      <nav className="w-full px-7 py-5 bg-sky-600 text-white grid grid-cols-3 h-max sticky top-0 z-50">
+      <nav className={`w-full px-7 py-5  text-white grid grid-cols-3 h-max top-0 z-50 absolute inset-0`} id="nav">
         <div className="w-full font-bold">
           <p className="text-3xl">{props.name}</p>
         </div>
@@ -16,7 +28,7 @@ export default function Navbar(props) {
           <div className={`${hamburgerActive ? 'flex' : 'hidden'} lg:flex absolute top-20 right-3 bg-slate-400 lg:bg-transparent lg:static w-28 lg:w-1/2 rounded`}>
             <ul className="w-full h-44 lg:h-max flex lg:flex-row flex-col justify-around items-center">
               <li className="">
-                <a href="#section-dashboard" className="">
+                <a href="#dashboard" className="">
                   Dashboard
                 </a>
               </li>

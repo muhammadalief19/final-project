@@ -14,10 +14,6 @@ body {
   @apply relative overflow-x-hidden;
 }
 
-#section-dashboard {
-  background-image: url('assets/bg-dashboard.jpg');
-}
-
 .hamburger-active > span:nth-child(1) {
   @apply rotate-45;
 }
@@ -28,4 +24,9 @@ body {
 
 .hamburger-active > span:nth-child(3) {
   @apply -rotate-45 mb-[1px] mt-[2px];
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-opacity-50;
+  backdrop-filter: blur(7px);
 }
