@@ -8,7 +8,7 @@ function Dashboard() {
         <div className="w-full flex h-full justify-center items-center">
           <div className="w-max">
             <p className="text-6xl font-extrabold w-40 mb-5">IYEK COMPANY</p>
-            <p className="w-64 font-normal text-lg">Kami melayani sepenuh hati dan senyuman</p>
+            <p className="w-64 font-normal text-lg">Kami melayani dengan sepenuh hati dan senyuman</p>
           </div>
         </div>
         <div className="w-full flex justify-center">
