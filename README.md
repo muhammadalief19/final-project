@@ -1,6 +1,29 @@
-# Getting Started with Create React App
+<h1 align="center">Final Project Iyek Company</h1>
+<hr>
+<br><br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#How To Use
+To use this App is very simple, you must run a simple syntax in terminal or command prompt.
+
+### Clone The Project
+
+```
+git clone https://github.com/muhammadalief19/final-project.git
+```
+Or
+```
+git clone git@github.com:muhammadalief19/final-project.git
+```
+
+### Instal The Project With npm
+
+```
+npm install
+```
+Or
+```
+npm -i
+```
 
 ## Available Scripts
 
