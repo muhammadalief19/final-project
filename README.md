@@ -5,7 +5,7 @@
 #How To Use
 To use this App is very simple, you must run a simple syntax in terminal or command prompt.
 
-###Clone The Project
+### Clone The Project
 
 ```
 git clone https://github.com/muhammadalief19/final-project.git
@@ -15,7 +15,7 @@ Or
 git clone git@github.com:muhammadalief19/final-project.git
 ```
 
-###Instal The Project With npm
+### Instal The Project With npm
 
 ```
 npm install
