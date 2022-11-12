@@ -30,3 +30,7 @@ body {
   @apply fixed z-[9999] bg-slate-400 bg-opacity-30 transition-all duration-200;
   backdrop-filter: blur(7px);
 }
+
+#mobile {
+  transform: rotateY(180deg);
+}
