@@ -22,7 +22,7 @@ export default function Navbar(props) {
     <>
       <nav className={`w-full px-7 py-5  text-white grid grid-cols-3 h-max top-0 z-50 absolute inset-0`} id="nav">
         <div className="w-full font-bold">
-          <p className="text-3xl">{props.name}</p>
+          <p className="text-xl lg:text-3xl">{props.name}</p>
         </div>
         <div className="col-span-2 w-full flex justify-end h-full items-center">
           <div className={`${hamburgerActive ? 'flex' : 'hidden'} lg:flex absolute top-20 right-3 bg-slate-400 lg:bg-transparent lg:static w-28 lg:w-1/2 rounded`}>
