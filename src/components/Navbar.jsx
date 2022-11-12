@@ -33,7 +33,7 @@ export default function Navbar(props) {
                 </a>
               </li>
               <li className="">
-                <a href="" className="">
+                <a href="#about" className="">
                   About
                 </a>
               </li>
