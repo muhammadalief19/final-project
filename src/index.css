@@ -27,6 +27,6 @@ body {
 }
 
 .navbar-fixed {
-  @apply fixed z-[9999] bg-white bg-opacity-20 transition-all duration-200;
+  @apply fixed z-[9999] bg-slate-400 bg-opacity-30 transition-all duration-200;
   backdrop-filter: blur(7px);
 }
