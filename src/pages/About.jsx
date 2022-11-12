@@ -1,46 +1,18 @@
-import React from "react";
-import asset1 from "../assets/asset-2.png";
+import React from 'react';
+import asset1 from '../assets/asset-2.png';
 function About() {
   return (
     <>
       <div className="w-full relative px-7 py-10">
         <p className="text-4xl font-bold text-center mb-5">About</p>
-        <p className="w-3/4 text-justify mx-auto text-gray-500">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
-          voluptatibus facilis reprehenderit, dolorum architecto voluptates
-          aspernatur mollitia quos id magni delectus ea necessitatibus dolores
-          iure neque officia sed aperiam vel soluta! Sit eligendi minima
-          voluptatibus, animi magnam numquam blanditiis nostrum, eius, est vitae
-          ex molestias voluptatum. Tenetur suscipit quidem esse itaque
-          consectetur quas pariatur animi, sit deserunt! Perspiciatis at
-          temporibus nesciunt accusantium eum est ullam, saepe quis neque modi
-          distinctio cupiditate hic! Placeat dolore quos assumenda minima
-          quaerat, veniam aspernatur facilis praesentium dolorem ea voluptatum
-          maiores accusantium, excepturi inventore ullam, a saepe iusto
-          voluptatem asperiores dignissimos nam velit consectetur ipsam fuga!
-          Quasi, quaerat dolorum debitis animi qui earum. Cupiditate
-          reprehenderit repellendus aperiam quos sed, ex temporibus tempore
-          perferendis rem, alias tenetur praesentium ut odit corporis, maxime
-          architecto magni? Fuga suscipit a, repudiandae veritatis illo nostrum
-          eligendi alias id dolorum quae earum autem laboriosam ipsa repellat
-          tempora saepe optio, tenetur explicabo aliquam dicta. Tempora, et.
-          Delectus consectetur libero tenetur? Earum eos deserunt reprehenderit
-          ad voluptatum omnis minus nemo ullam cum numquam, exercitationem esse
-          sint aperiam suscipit adipisci voluptate! Earum sit voluptatum dolorem
-          dolor provident vel libero a rerum eaque, voluptas quidem nobis ad
-          voluptate, nam similique, ipsa ipsum voluptates quasi. Ipsum facilis
-          perferendis temporibus necessitatibus, nisi doloribus? Dolores nihil
-          quasi, omnis nam tenetur sint doloribus error eos! Dolorem repellendus
-          saepe suscipit vero sequi earum voluptates, autem adipisci, non
-          accusamus perferendis excepturi fugit doloribus nisi, maiores corrupti
-          dicta corporis magnam ipsum quidem! Harum officiis sunt modi nihil
-          facilis excepturi, in ut ad?
+        <p className="w-3/4 text-justify mx-auto text-gray-500 text-lg indent-28">
+          Iyek Company adalah salah satu badan usaha di bidang Software Developer. Iyek Company pertama kali dibentuk oleh 3 mahasiswa PENS prodi D3 Teknik Informatika. Kata iyek dalam nama usaha tersebut diambil dari Bahasa Madura ( iyek )
+          yang berarti "Orang Arab". Karena salah satu karyawan Iyek Company merupakan keturunan arab <strong>Talpos</strong>. Iyek Company sudah banyak dikenal oleh orang, khususnya orang Madura dan Jawa Timur, karena produk - produk
+          software kami sudah memberikan banyak dampak positif bagi masyarakat, diantaranya aplikasi <b>ABON</b> atau Absen Online, aplikasi ini sudah banyak digunakan sekolah - sekolah, dari Sekolah dasar sampai SMA. Yang kedua ada
+          aplikasi Pasar Anom, aplikasi ini adalah produk tersukses, aplikasi ini termasuk dalam jenis aplikasi e-Commerce seperti Shoopee, Tokopedia, Lazada dll., Aplikasi ini mengalahkan aplikasi Shopee dan Tokopedia. Menurut pendapat
+          client aplikasi Pasar Anom ini fiturnya sangat lengkap, banyak event promo, server aplikasinya stabil dan ringan untuk smartphone RAM dibawah 4GB.
         </p>
-        <img
-          src={asset1}
-          alt=""
-          className="absolute right-12 top-28 w-[350px] hover:translate-x-16 hover:-rotate-12 translate-y-14 transition-all duration-500  ease-in-out"
-        />
+        <img src={asset1} alt="" className="absolute right-14 top-24 w-[350px] hover:translate-x-36 hover:-rotate-12 translate-y-14 transition-all duration-500  ease-in-out" />
       </div>
     </>
   );
