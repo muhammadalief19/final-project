@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import About from './pages/About';
 import Load from './components/Load';
+import Partner from './pages/Partner';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <div className="w-full">
           <Dashboard />
           <About />
+          <Partner/>
         </div>
       </div>
     </>
