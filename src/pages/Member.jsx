@@ -1,5 +1,6 @@
 import React from "react";
-import foto1 from "../assets/foto1.svg"
+import foto1 from "../assets/foto1.svg";
+import foto2 from "../assets/asset-8.webp";
 
 function Member() {
     return(
@@ -13,8 +14,9 @@ function Member() {
                     <p className="text-xl font-bold">Nabil</p>
                     <img src={foto1} alt="" className="lg:w-1/2 w-3/4" />
                 </div>
-                <div className="">
-                    <img src="" alt="" className="" />
+                <div className="w-full flex flex-col justify-center h-max items-center">
+                    <p className="text-xl font-bold">Yoga</p>
+                    <img src={foto2} alt="" className="lg:w-1/2 w-3/4" />
                 </div>
             </div>
         </div>
