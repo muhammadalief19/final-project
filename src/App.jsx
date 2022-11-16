@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import About from './pages/About';
 import Load from './components/Load';
 import Partner from './pages/Partner';
+import Member from './pages/Member';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Dashboard />
           <About />
           <Partner/>
+          <Member />
         </div>
       </div>
     </>
