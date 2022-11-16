@@ -1,6 +1,6 @@
 import React from "react";
 import foto1 from "../assets/foto1.svg";
-import foto2 from "../assets/asset-8.webp";
+import foto2 from "../assets/foto-2.svg";
 
 function Member() {
     return(
