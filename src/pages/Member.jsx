@@ -6,8 +6,8 @@ import foto3 from "../assets/alief.webp";
 function Member() {
     return(
         <>
-        <div className="w-full flex flex-col items-center py-20" id="member">
-            <p className="text-center lg:mb-16 font-bold text-4xl text-teal-600">Members</p>
+        <div className="w-full flex flex-col items-center py-28" id="member">
+            <p className="text-center mb-16 font-bold text-4xl text-teal-600">Members</p>
             <div className="w-3/4 grid grid-rows-3 gap-y-10 ">
                 <div className="w-full flex justify-center h-max items-center hover:scale-110 duration-500 transition-all ease-out cursor-pointer">
                     <div className="w-[60%] box-border flex rounded-md overflow-hidden border border-slate-300">
