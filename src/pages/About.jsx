@@ -4,7 +4,7 @@ import asset2 from '../assets/asset-3.webp';
 function About() {
   return (
     <>
-      <div className="w-full relative px-5 lg:px-7 py-20 lg:py-10" id="about">
+      <div className="w-full relative px-5 lg:px-7 py-20 lg:py-24" id="about">
         <p className="text-4xl text-teal-600 font-bold text-center mb-5">About</p>
         <p className="w-full lg:w-3/4 text-justify mx-auto text-gray-600 text-lg indent-28 font-medium">
           Iyek Company adalah salah satu badan usaha di bidang Software Developer. Iyek Company pertama kali dibentuk oleh 3 mahasiswa PENS prodi D3 Teknik Informatika. Kata iyek dalam nama usaha tersebut diambil dari Bahasa Madura ( iyek )
