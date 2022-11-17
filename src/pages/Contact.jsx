@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import img1 from "../assets/asset-8.svg";
+import emailjs from "emailjs-com";
 function Contact() {
   const scriptURL =
     "https://script.google.com/macros/s/AKfycbyNAniaSL13hcS3JKMev9C6qZp0jTI8K_wvNHCJDJ7PPsLjYn2_lhh-h99Dr32S1jUjQA/exec";
   const [btnActive, setBtnActive] = useState(true);
   const [alertActive, setAlertActive] = useState(false);
+  const formContact = useRef();
   function submit(e) {
     e.preventDefault();
     setBtnActive((btnActive) => !btnActive);
@@ -15,10 +17,25 @@ function Contact() {
       .then((response) => {
         setBtnActive((btnActive) => !btnActive);
         setAlertActive(true);
-        document.forms["iyek-company-contact-form"].reset();
         console.log("Success!", response);
       })
       .catch((error) => console.error("Error!", error.message));
+    emailjs
+      .sendForm(
+        "service_180awgh",
+        "template_nbsgkvs",
+        e.target,
+        "137wB44dVKrv0KDCd"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   }
 
   function alert() {
@@ -83,7 +100,14 @@ function Contact() {
                 name="iyek-company-contact-form"
                 className="w-3/4 flex flex-col h-max"
                 onSubmit={submit}
+                ref={formContact}
               >
+                <input
+                  type="hidden"
+                  name="subject"
+                  id="subject"
+                  value={"Kritik & Saran"}
+                />
                 <p className="text-3xl text-white font-bold text-center mb-5">
                   Contact Form
                 </p>
