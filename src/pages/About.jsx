@@ -6,7 +6,7 @@ function About() {
     <>
       <div className="w-full relative px-5 lg:px-7 py-20 lg:py-24" id="about">
         <p className="text-4xl text-teal-600 font-bold text-center mb-5">About</p>
-        <p className="w-full lg:w-3/4 text-justify mx-auto text-gray-600 text-lg indent-28 font-medium">
+        <p className="w-full lg:w-3/4 text-justify mx-auto text-gray-600 text-base lg:text-lg indent-28 font-medium">
           Iyek Company adalah salah satu badan usaha di bidang Software Developer. Iyek Company pertama kali dibentuk oleh 3 mahasiswa PENS prodi D3 Teknik Informatika. Kata iyek dalam nama usaha tersebut diambil dari Bahasa Madura ( iyek )
           yang berarti "Orang Arab". Karena salah satu karyawan Iyek Company merupakan keturunan arab <strong>Talpos</strong>. Iyek Company sudah banyak dikenal oleh orang, khususnya orang Madura dan Jawa Timur, karena produk - produk
           software kami sudah memberikan banyak dampak positif bagi masyarakat, diantaranya aplikasi <b>ABON</b> atau Absen Online, aplikasi ini sudah banyak digunakan sekolah - sekolah, dari Sekolah dasar sampai SMA. Yang kedua ada
