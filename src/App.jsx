@@ -6,6 +6,7 @@ import About from './pages/About';
 import Load from './components/Load';
 import Partner from './pages/Partner';
 import Member from './pages/Member';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <About />
           <Partner/>
           <Member />
+          <Contact/>
         </div>
       </div>
     </>
