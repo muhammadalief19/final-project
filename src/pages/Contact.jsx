@@ -99,6 +99,8 @@ function Contact() {
                     name="name"
                     id="name"
                     className="w-full h-10 rounded px-3"
+                    required
+                    autoComplete="off"
                   />
                 </div>
                 <div className="w-full py-5">
@@ -113,6 +115,8 @@ function Contact() {
                     name="email"
                     id="email"
                     className="w-full h-10 rounded px-3"
+                    required
+                    autoComplete="off"
                   />
                 </div>
                 <div className="w-full py-5">
@@ -127,6 +131,8 @@ function Contact() {
                     name="institute"
                     id="institute"
                     className="w-full h-10 rounded px-3"
+                    required
+                    autoComplete="off"
                   />
                 </div>
                 <div className="w-full py-5">
@@ -140,6 +146,8 @@ function Contact() {
                     name="message"
                     id="message"
                     className="w-full h-60 rounded px-3 py-2"
+                    required
+                    autoComplete="off"
                   ></textarea>
                 </div>
                 <button
