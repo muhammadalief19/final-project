@@ -29,11 +29,12 @@ export default function Navbar(props) {
         </div>
         <div className="col-span-2 w-full flex justify-end h-full items-center">
           <div
+            id="a"
             className={`${
               hamburgerActive ? "flex" : "hidden"
-            } lg:flex absolute top-20 right-3 bg-slate-400 lg:bg-transparent lg:static w-28 lg:w-1/2 rounded`}
+            } lg:flex absolute top-[70px] right-3 bg-teal-700 bg-opacity-80 lg:bg-transparent lg:static w-32 lg:w-1/2 rounded`}
           >
-            <ul className="w-full h-44 lg:h-max flex lg:flex-row flex-col justify-around items-center">
+            <ul className="w-full h-48 lg:h-max flex lg:flex-row flex-col justify-around items-center">
               <li className="">
                 <a href="#dashboard" className="">
                   Dashboard

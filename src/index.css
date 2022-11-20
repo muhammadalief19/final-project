@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @apply relative overflow-x-hidden;
@@ -33,4 +33,8 @@ body {
 
 #mobile {
   transform: rotateY(180deg);
+}
+
+#a {
+  backdrop-filter: blur(10px);
 }
