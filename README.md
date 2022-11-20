@@ -22,7 +22,7 @@ npm install
 ```
 Or
 ```
-npm -i
+npm i
 ```
 
 ## Available Scripts
