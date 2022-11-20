@@ -13,29 +13,29 @@ function Footer() {
       <div className="w-full flex justify-center py-7">
         <div className="w-3/4 grid grid-flow-row gap-y-5">
           <div className="w-full">
-            <p className="text-3xl font-bold text-teal-600">
+            <p className="text-xl  md:text-2xl lg:text-3xl font-bold text-teal-600">
               Terima Kasih Kawan
             </p>
-            <p className="font-medium text-lg">
+            <p className="font-medium text-base lg:text-lg">
               Terima kasih, telah bekunjung di website kami
             </p>
-            <div className="w-40 flex justify-between">
+            <div className="mx-auto md:m-0 w-40 flex justify-between py-5">
               <a href="" className="">
-                <FontAwesomeIcon class="w-5" icon={faInstagram} />
+                <FontAwesomeIcon class="w-5 text-teal-600" icon={faInstagram} />
               </a>
               <a href="" className="">
-                <FontAwesomeIcon class="w-5" icon={faGithub} />
+                <FontAwesomeIcon class="w-5 text-teal-600" icon={faGithub} />
               </a>
               <a href="" className="">
-                <FontAwesomeIcon class="w-5" icon={faTelegram} />
+                <FontAwesomeIcon class="w-5 text-teal-600" icon={faTelegram} />
               </a>
               <a href="" className="">
-                <FontAwesomeIcon class="w-5" icon={faTwitter} />
+                <FontAwesomeIcon class="w-5 text-teal-600" icon={faTwitter} />
               </a>
             </div>
           </div>
           <div className="w-full">
-            <p className="text-center font-semibold text-gray-400">
+            <p className="text-center text-sm lg:text-base font-semibold text-gray-400">
               Copyright © 2022 Iyek Company
             </p>
           </div>
