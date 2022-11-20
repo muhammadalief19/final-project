@@ -34,7 +34,3 @@ body {
 #mobile {
   transform: rotateY(180deg);
 }
-
-#a {
-  backdrop-filter: blur(10px);
-}
