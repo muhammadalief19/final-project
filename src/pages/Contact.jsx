@@ -88,10 +88,10 @@ function Contact() {
           <div className="w-full lg:w-[90%] grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 gap-10 h-max">
             <div className="w-full flex flex-col items-center text-center text-white pt-20 rounded">
               <p className="font-bold text-3xl mb-10">About Us</p>
-              <p className="w-[90%] lg:w-[60%] text-lg mb-5">
+              <p className="w-[90%] md:w-[60%] text-sm md:text-base lg:text-lg mb-5">
                 Manusia tidak pernah luput dengan yang namanya salah. Jika ada
                 saran atau pun kritik, silahkan curahkan isi hati kalian pada
-                form contact{" "}
+                form contact
               </p>
               <img src={img1} alt="" className="w-full md:w-3/4" />
             </div>
