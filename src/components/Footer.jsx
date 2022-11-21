@@ -26,7 +26,11 @@ function Footer() {
                   icon={faInstagram}
                 />
               </a>
-              <a href="" className="">
+              <a
+                href="https://github.com/muhammadalief19/final-project"
+                className=""
+                target={"_blank"}
+              >
                 <FontAwesomeIcon
                   class="w-5 text-teal-600 hover:text-teal-800 transition-colors duration-500 ease-in-out"
                   icon={faGithub}
@@ -38,7 +42,11 @@ function Footer() {
                   icon={faTelegram}
                 />
               </a>
-              <a href="" className="">
+              <a
+                href="https://twitter.com/CompanyIyek"
+                target={"_blank"}
+                className=""
+              >
                 <FontAwesomeIcon
                   class="w-5 text-teal-600 hover:text-teal-800 transition-colors duration-500 ease-in-out"
                   icon={faTwitter}
