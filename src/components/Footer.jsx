@@ -20,7 +20,11 @@ function Footer() {
               Terima kasih, telah bekunjung di website kami
             </p>
             <div className="mx-auto md:m-0 w-40 flex justify-between py-5">
-              <a href="" className="">
+              <a
+                href="https://www.instagram.com/iyekcompany/"
+                target={"_blank"}
+                className=""
+              >
                 <FontAwesomeIcon
                   class="w-5 text-teal-600 hover:text-teal-800 transition-colors duration-500 ease-in-out"
                   icon={faInstagram}
