@@ -40,7 +40,11 @@ function Footer() {
                   icon={faGithub}
                 />
               </a>
-              <a href="" className="">
+              <a
+                href="https://t.me/Muhammadalief"
+                className=""
+                target={"_blank"}
+              >
                 <FontAwesomeIcon
                   class="w-5 text-teal-600 hover:text-teal-800 transition-colors duration-500 ease-in-out"
                   icon={faTelegram}
