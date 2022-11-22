@@ -1,6 +1,7 @@
 {
   "name": "final-project",
   "version": "0.1.0",
+  "homepage": "https://iyekcompany.000webhostapp.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
