@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       <Load />
-      <div className="w-full">
+      <div className="w-full overflow-x-hidden">
         <Navbar name={"Iyek Company"} />
-        <div className="w-full">
+        <div className="w-full overflow-x-hidden">
           <Dashboard />
           <About />
           <Partner />
