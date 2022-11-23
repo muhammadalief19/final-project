@@ -13,16 +13,14 @@ function App() {
   return (
     <>
       <Load />
-      <div className="w-full overflow-x-hidden">
+      <div className="w-full relative overflow-x-hidden">
         <Navbar name={"Iyek Company"} />
-        <div className="w-full overflow-x-hidden">
-          <Dashboard />
-          <About />
-          <Partner />
-          <Member />
-          <Contact />
-          <Footer />
-        </div>
+        <Dashboard />
+        <About />
+        <Partner />
+        <Member />
+        <Contact />
+        <Footer />
       </div>
     </>
   );

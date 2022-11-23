@@ -21,10 +21,10 @@ export default function Navbar(props) {
   return (
     <>
       <nav
-        className={`w-full px-7 py-5  text-white grid grid-cols-3 h-max top-0 z-40 absolute inset-0`}
+        className={`w-full px-7 py-5 text-white grid grid-cols-3 h-24 top-0 z-40 absolute `}
         id="nav"
       >
-        <div className="w-full font-bold">
+        <div className="w-full flex h-full items-center font-bold">
           <p className="text-xl lg:text-3xl">{props.name}</p>
         </div>
         <div className="col-span-2 w-full flex justify-end h-full items-center">

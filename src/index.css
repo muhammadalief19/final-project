@@ -11,7 +11,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply relative overflow-x-hidden;
+  @apply relative overflow-x-hidden z-50;
 }
 
 .hamburger-active > span:nth-child(1) {
